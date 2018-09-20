@@ -4,8 +4,8 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">Dashboard</div>
+            <h1 class="card">
+                <h1>Мои заказы</h1>
 
                 <div class="card-body">
                     @if (session('status'))
@@ -14,9 +14,9 @@
                         </div>
                     @endif
 
-                    You are logged in!
+                    <a href ="/products">Мои товары</a>
+                        <br><a href ="/products/create">Добавить товар</a>
                 </div>
-            </div>
         </div>
     </div>
 </div>
